@@ -35,7 +35,7 @@ const About = () => {
       </motion.div>
       <motion.p
       variants={fadeIn("","",0.1,1)}
-      className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
       >
         I am passionate about the dynamic interplay of technology and creativity, with a dedicated focus on Artificial Intelligence, Machine Learning, Data Science, Web Development, and Art.
         I explore the intersections of these fields to craft innovative solutions and showcase my artistic pursuits.

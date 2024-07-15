@@ -45,7 +45,7 @@ const JustForFun = () => {
           <h2 className={styles.sectionHeadText}>JustForFun.</h2>
         </motion.div>
       </div>
-      <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
+      <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7 text-justify`}>
       {testimonials.map((testimonial, index) => (
   <JustForFunCard
     key={testimonial.id} 

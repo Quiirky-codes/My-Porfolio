@@ -43,6 +43,10 @@ import {
     hal56,
     nba,
     vehiclemain,
+    exp1,
+    exp2,
+    exp3,
+    exp4,
     
   } from "../assets";
   
@@ -351,4 +355,19 @@ import {
     },
   ];
   
-  export { services, technologies, education, testimonials, projects };
+  /*const experiences = [
+    {
+      id: "1",
+      title: "Full Stack Web Dev and AI Intern",
+      company_name: "Excentric NEXA",
+      icon: exp1,
+      /*date: "March 2020 - April 2021",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+  ];*/
+  export { services, technologies, education, testimonials, projects};//experiences };

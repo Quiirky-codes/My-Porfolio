@@ -12,10 +12,10 @@ export {
   Hero,
   Navbar,
   About,
-  TechStack, //Tech
-  Education, //Experience
-  Project, //Works, 
-  JustForFun, //Feedbacks,
+  TechStack, 
+  Education, 
+  Project, 
+  JustForFun, 
   Contact,
   EarthCanvas, 
   BallCanvas, 

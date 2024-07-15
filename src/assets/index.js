@@ -52,6 +52,12 @@ import hal56 from "./hal56.png";
 import nba from "./nba.png";
 import vehiclemain from "./vehiclemain.png";
 
+import exp1 from "./exp1.png";
+import exp2 from "./exp2.png";
+import exp3 from "./exp3.png";
+import exp4 from "./exp4.png";
+
+
 export {
   logoq,
   backend,
@@ -102,5 +108,9 @@ export {
   hal56,
   nba,
   vehiclemain,
+  exp1,
+  exp2,
+  exp3,
+  exp4,
 
 };

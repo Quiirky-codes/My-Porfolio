@@ -60,7 +60,7 @@ const Project = () => {
         <div className="w-full flex">
           <motion.p
             variants={fadeIn("","",0.1,1)}
-            className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+            className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
             >
               My projects demonstrate the powerful synergy between technology and creativity, spanning fields such as Artificial Intelligence, Machine Learning, Data Science,
               and Web Development. 
@@ -70,7 +70,7 @@ const Project = () => {
             </motion.p>
 
         </div>
-        <div className="mt-20 flex flex-wrap gap-7">
+        <div className="mt-20 flex flex-wrap gap-7 text-justify">
           {projects.map((project, index) =>(
             <ProjectCard key={`project-${index}`}
             index={index}
