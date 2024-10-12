@@ -5,43 +5,6 @@
 @tailwind utilities;
 
 
-.neon-text {
-  font-family: 'Arial', sans-serif;
-  font-size: 48px; /* Adjust as needed */
-  color: #915eff; /* Base color */
-  text-shadow: 
-    0 0 5px #915eff,  /* Slight glow */
-    0 0 10px #915eff, /* Medium glow */
-    0 0 20px #915eff, /* Larger glow */
-    0 0 40px #915eff, /* Outer glow */
-    0 0 80px #ff00ff, /* Purple glow */
-    0 0 90px #ff00ff; /* More intense glow */
-
-  /* Glow animation */
-  animation: neon-glow 1.5s infinite alternate;
-}
-
-/* Keyframes for neon light pulsing */
-@keyframes neon-glow {
-  0% {
-    text-shadow: 
-      0 0 5px #915eff, 
-      0 0 10px #915eff, 
-      0 0 20px #915eff, 
-      0 0 40px #915eff, 
-      0 0 80px #ff00ff, 
-      0 0 90px #ff00ff;
-  }
-  100% {
-    text-shadow: 
-      0 0 10px #ff00ff, 
-      0 0 20px #ff00ff, 
-      0 0 30px #ff00ff, 
-      0 0 60px #ff00ff, 
-      0 0 100px #ff00ff, 
-      0 0 110px #ff00ff;
-  }
-}
 
 
 * {
