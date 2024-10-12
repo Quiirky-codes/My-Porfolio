@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+
+<link rel="stylesheet" href="../styles.css" type="text/css"/>
 const Hero = () =>{
   return(
     <section className={`relative w-full h-screen mx-auto`}>
@@ -11,7 +13,7 @@ const Hero = () =>{
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi! I'm <span className="text-[#915eff]">Amith M Jain</span>
+            Hi! I'm <span class="home_wrapper" className="text-[#915eff]" data-text="Amith M Jain">Amith M Jain</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           AI & ML Enthusiast <span className="text-[#915eff]">|</span> Data Science Explorer <span className="text-[#915eff]">|</span> Deep Learning Aficionado <span className="text-[#915eff]">|</span><br className='sm:block hidden' />

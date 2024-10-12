@@ -6,8 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
-
+import asl from "./asl.png";
 import angular from "./tech/angular.png";
 import bootstrap from "./tech/bootstrap.png";
 import clang from "./tech/clang.png";
@@ -112,5 +111,6 @@ export {
   exp2,
   exp3,
   exp4,
+  asl,
 
 };

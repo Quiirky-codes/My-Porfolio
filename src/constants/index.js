@@ -47,6 +47,7 @@ import {
     exp2,
     exp3,
     exp4,
+    asl,
     
   } from "../assets";
   
@@ -352,6 +353,28 @@ import {
       ],
       image: hal56,
       source_code_link: "https://github.com/Quiirky-codes/HAL56",
+    },
+    {
+      name: "American Hand-Sign Recognition",
+      description:
+        "This project aims to eradicate the communication barrier between Deaf and hearing individuals by developing a system to detect and interpret American Sign Language (ASL) gestures. Initially, we use a Random Forest classifier for gesture recognition.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CNN",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Deep Learning",
+          color: "pink-text-gradient",
+        },
+        
+      ],
+      image: asl,
+      source_code_link: "https://github.com/Quiirky-codes/Sign_To_Text_Recognition",
     },
   ];
   

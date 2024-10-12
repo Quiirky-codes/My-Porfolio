@@ -6,33 +6,45 @@ import { testimonials } from "../constants";
 import { github } from "../assets";
 import { Tilt } from "react-tilt";
 
-const JustForFunCard = ({index, testimonial,title,  source_code_link}) => {
+const JustForFunCard = ({ index, testimonial, title, source_code_link }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      className="sm:w-[360px] w-full"
+      style={{ height: '300px' }}  // Set a fixed height for the entire card
+    >
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full rounded-[20px]"
+        className="bg-tertiary p-5 rounded-[20px] w-full h-full"
       >
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
           <div
             onClick={() => window.open(source_code_link, "_blank")}
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
           >
-            <img src={github} alt="github" className="w-1/2 h-1/2 object-contain" />
+            <img
+              src={github}
+              alt="github"
+              className="w-1/2 h-1/2 object-contain"
+            />
           </div>
         </div>
+
         <div className="mt-5">
           <h3 className="text-white text-[18px] font-bold">{title}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{testimonial}</p>
+          <p className="mt-2 text-secondary text-[14px] overflow-hidden" style={{ maxHeight: '150px', textOverflow: 'ellipsis' }}>
+            {testimonial}
+          </p>
         </div>
       </Tilt>
     </motion.div>
   );
 };
+
 
 const JustForFun = () => {
   return (
