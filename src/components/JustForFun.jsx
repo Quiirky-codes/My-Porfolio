@@ -2,16 +2,14 @@ import { motion } from "framer-motion";
 import { styles } from '../styles';
 import { sectionWrapper } from "../HOC";
 import { fadeIn, textVariant } from "../utils/motion";
-import { testimonials } from "../constants";
-import { github } from "../assets";
+import { certifications } from "../constants";
 import { Tilt } from "react-tilt";
 
-const JustForFunCard = ({ index, testimonial, title, source_code_link }) => {
+const JustForFunCard = ({ index, title, date, company_name, source_code_link }) => {
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-      className="sm:w-[360px] w-full"
-      style={{ height: '300px' }}  // Set a fixed height for the entire card
+      className="w-[300px] h-[150px]" // Set a fixed width for each card
     >
       <Tilt
         options={{
@@ -19,32 +17,23 @@ const JustForFunCard = ({ index, testimonial, title, source_code_link }) => {
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-[20px] w-full h-full"
+        className="bg-tertiary p-5 rounded-[20px] cursor-pointer border-2 border-white shadow-lg transition duration-300 ease-in-out hover:shadow-2xl hover:border-purple-400" // Add border and hover effects
       >
-        <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-          <div
-            onClick={() => window.open(source_code_link, "_blank")}
-            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-          >
-            <img
-              src={github}
-              alt="github"
-              className="w-1/2 h-1/2 object-contain"
-            />
+        <div 
+          className="h-full w-full" 
+          onClick={() => window.open(source_code_link, "_blank")}
+        >
+          <div className="mt-5">
+            <h3 className="text-white text-[18px] font-bold">{title}</h3>
+            <p className="text-secondary text-[16px] font-semibold" style={{ margin: 0 }}>
+              {company_name} - {date}
+            </p>
           </div>
-        </div>
-
-        <div className="mt-5">
-          <h3 className="text-white text-[18px] font-bold">{title}</h3>
-          <p className="mt-2 text-secondary text-[14px] overflow-hidden" style={{ maxHeight: '150px', textOverflow: 'ellipsis' }}>
-            {testimonial}
-          </p>
         </div>
       </Tilt>
     </motion.div>
   );
 };
-
 
 const JustForFun = () => {
   return (
@@ -52,19 +41,20 @@ const JustForFun = () => {
       <div className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>
-            Discover the fun and creative projects I developed in my spare time, born from moments of boredom and bursts of inspiration.
+            Discover the certifications and achievements I have earned in my learning journey.
           </p>
-          <h2 className={styles.sectionHeadText}>JustForFun.</h2>
+          <h2 className={styles.sectionHeadText}>Certifications.</h2>
         </motion.div>
       </div>
-      <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7 text-justify`}>
-      {testimonials.map((testimonial, index) => (
-  <JustForFunCard
-    key={testimonial.id} 
-    index={index}
-    {...testimonial}
-  />
-))}
+      {/* Flex container with justify-center and wrapping */}
+      <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap justify-center gap-7`}>
+        {certifications.map((certification, index) => (
+          <JustForFunCard
+            key={certification.id}
+            index={index}
+            {...certification}
+          />
+        ))}
       </div>
     </div>
   );

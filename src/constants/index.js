@@ -169,13 +169,7 @@ import {
       date: "Dec 2021 - Present",
       points: [
         "I am currently pursuing my Bachelor's degree in Artificial Intelligence and Machine Learning at Global Academy of Technology, Bengaluru.",
-        "I have completed 5 Semesters and a CGPA of 8.61.",
-        "I have the following certifications:",
-        "The Complete Python Bootcamp : UDEMY",
-        "The Complete 2023 Web : Development Bootcamp : UDEMY",
-        "Python for Data Science and Machine Learning : UDEMY",
-        "ChatGPT Prompt Engineering for Developers : DeepLearning.AI",
-        "Generative AI with Large Language Models : Coursera ",
+        "I have completed 5 Semesters and have a CGPA of 8.73.",
         "Founding Core Committee Member of VIHANA - The social-service club of the Department of Artificial Intelligence and Machine Learning.",
       ],
     },
@@ -205,35 +199,97 @@ import {
     },
     ];
   
-  const testimonials = [
+  const certifications = [
     {
       id:"1",
-      title:"Simon Game",
+      title:"Introducing Multimodal Llama 3.2",
+      date: "October 2024",
+      company_name: "DeepLearning.AI",
       testimonial:
-        "A web-based implementation of the classic Simon Game, built using HTML, CSS, and JavaScript. The game challenges players to memorize and repeat a sequence of tones and lights, which becomes progressively longer and more complex as the game progresses.",
+        "",
       
-      source_code_link: "https://github.com/Quiirky-codes/Simon_Game",
+      source_code_link: "https://learn.deeplearning.ai/accomplishments/51b5e1ad-d91f-4ed6-96c1-00501bc04471",
     },
     {
       id:"2",
-      title:"MNIST Neural Network",
+      title:"Serverless LLM Apps Amazon Bedrock",
+      date: "October 2024",
+      company_name: "DeepLearning.AI",
       testimonial:
-        "A simple neural network from scratch using only NumPy and Math libraries. The neural network is trained and tested on the MNIST dataset, a popular benchmark dataset for handwritten digit recognition.",
-      source_code_link: "https://github.com/Quiirky-codes/MNIST_neural_network",
+        "",
+      source_code_link: "https://learn.deeplearning.ai/accomplishments/9abcbdd3-aa21-471d-a788-219be4ae5d4a",
     },
     {
       id:"3",
-      title:"Drum-Kit",
+      title:"Introduction to cloud-native apps on Azure",
+      date: "September 2024",
+      company_name: "Microsoft",
       testimonial:
-        "The Drum Kit Project is an interactive web application that lets you unleash your inner drummer. Built with HTML, CSS, and JavaScript, this project allows users to create beats either by clicking on virtual drum pads or by pressing corresponding keys on the keyboard.",
-      source_code_link: "https://github.com/Quiirky-codes/Drum-Kit",
+        "",
+      source_code_link: "https://learn.microsoft.com/en-us/users/amithmjain-8606/achievements/n2rt8vxf?ref=https%3A%2F%2Fwww.linkedin.com%2F",
     },
     {
       id:"4",
-      title:"McCulloch Pitts Neuron",
+      title:"Programming with a Large Language Model",
+      date: "July 2024",
+      company_name: "DeepLearning.AI",
       testimonial:
-        "A simple implementation of McCulloch-Pitts neurons for the OR, AND, and XOR logic gates. The implementation includes threshold values, learning rates, and epochs for training.",
-      source_code_link: "https://github.com/Quiirky-codes/McCulloch-Pitts-Neuron",
+        "",
+      source_code_link: "https://learn.deeplearning.ai/accomplishments/68151c1f-ae56-44e3-8908-bdb57ebd36b3?usp=sharing",
+    },
+    {
+      id:"5",
+      title:"Programming with a Large Language Model",
+      date: "July 2024",
+      company_name: "DeepLearning.AI",
+      testimonial:
+        "",
+      source_code_link: "https://learn.deeplearning.ai/accomplishments/68151c1f-ae56-44e3-8908-bdb57ebd36b3?usp=sharing",
+    },
+    {
+      id:"6",
+      title:"ChatGPT Prompt Engineering for Developers",
+      date: "July 2024",
+      company_name: "DeepLearning.AI",
+      testimonial:
+        "",
+      source_code_link: "https://learn.deeplearning.ai/accomplishments/8d5b516d-d01a-4604-b7e3-c612e76601f5?usp=sharing",
+    },
+    {
+      id:"7",
+      title:"Full stack Web Development",
+      date: "July 2024",
+      company_name: "Udemy",
+      testimonial:
+        "",
+      source_code_link: "https://www.udemy.com/certificate/UC-8d0a694a-020f-40be-929f-4fcef052d76e/",
+    },
+    {
+      id:"8",
+      title:"Introduction to Generative AI",
+      date: "July 2024",
+      company_name: "Google Cloud",
+      testimonial:
+        "",
+      source_code_link: "https://www.cloudskillsboost.google/public_profiles/70e7af2a-8e85-4345-8942-37b0af695121/badges/10236618?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    },
+    {
+      id:"9",
+      title:"LangChain for LLM Application Development",
+      date: "July 2024",
+      company_name: "DeepLearning.AI",
+      testimonial:
+        "",
+      source_code_link: "https://learn.deeplearning.ai/accomplishments/378a03c8-f7ea-4c98-8842-d58d21edf54b?usp=sharing",
+    },
+    {
+      id:"10",
+      title:"Python For Data Science and Machine Learning",
+      date: "July 2024",
+      company_name: "Udemy",
+      testimonial:
+        "",
+      source_code_link: "https://www.udemy.com/certificate/UC-03a3562e-2bd5-4208-82ae-50953e2b4438/",
     },
   ];
   
@@ -393,4 +449,4 @@ import {
       ],
     },
   ];*/
-  export { services, technologies, education, testimonials, projects};//experiences };
+  export { services, technologies, education, certifications, projects};//experiences };
