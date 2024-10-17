@@ -8,6 +8,7 @@ import JustForFun from './JustForFun';
 import Education from './Education';
 import Contact from './Contact';
 
+
 export {
   Hero,
   Navbar,
