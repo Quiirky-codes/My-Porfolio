@@ -434,12 +434,11 @@ import {
     },
   ];
   
-  const experiences = [
+const experiences = [
     {
       id: "1",
       title: "Full Stack Web Dev and AI Intern",
       company_name: "Excentric NEXA",
-      icon: exp1,
       date: "March 2020 - April 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",

@@ -5,6 +5,9 @@
 @tailwind utilities;
 
 
+.shadow-purple-glow {
+  box-shadow: 0 0 15px rgba(128, 0, 128, 0.7); /* Adjust the glow strength */
+}
 
 
 * {
