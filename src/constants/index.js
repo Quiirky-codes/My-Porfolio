@@ -437,8 +437,8 @@ import {
 const experiences = [
     {
       id: "1",
-      title: "Full Stack Web Dev and AI Intern",
-      company_name: "Excentric NEXA",
+      title: "Software Developer Engineer",
+      company_name: "Google",
       date: "March 2020 - April 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
@@ -447,5 +447,18 @@ const experiences = [
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    {
+      id: "2",
+      title: "Data Scientist",
+      company_name: "Amazon",
+      date: "March 2020 - April 2021",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    
   ];
   export { services, technologies, education, certifications, projects,experiences};// };

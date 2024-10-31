@@ -4,35 +4,70 @@ import { styles } from "../styles";
 import { experiences } from "../constants"; // Import experiences array
 import { sectionWrapper } from "../HOC";
 import { textVariant } from "../utils/motion";
+import { Box, Container } from "@mui/material";
+import Timeline from "@mui/lab/Timeline";
+import TimelineItem from "@mui/lab/TimelineItem";
+import TimelineSeparator from "@mui/lab/TimelineSeparator";
+import TimelineConnector from "@mui/lab/TimelineConnector";
+import TimelineContent from "@mui/lab/TimelineContent";
+import TimelineDot from "@mui/lab/TimelineDot";
 
 const ExperienceCard = ({ experience }) => {
   return (
-    <div className="experience-card relative border-l-4 border-purple-500 pl-8 pb-8 ml-4">
-      {/* Glowing Purple Circle */}
-      <div className="absolute -left-6 top-0 w-8 h-8 rounded-full bg-purple-500 shadow-purple-glow flex justify-center items-center"></div>
-      
+    <motion.div>
+    <Box
+      sx={{
+        position: "relative",
+        pl: 3,
+        pb: 3,
+        pt: 3,
+        ml: 1,
+        border: "2px solid #6a0dad", // Purple border
+        borderRadius: "8px",
+        boxShadow: "0 0 10px 2px rgba(138, 43, 226, 0.6)", // Glowing effect
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "left", // Align content to the left
+        justifyContent: "center", // Center content vertically
+        textAlign: "left", // Align text to the left
+      }}
+    >
       {/* Experience Title and Details */}
       <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
-      <h4 className="text-purple-400 text-[20px] font-semibold">{experience.company_name}</h4>
-      
+      <h4 className="text-purple-400 text-[20px] font-semibold">
+        {experience.company_name}
+      </h4>
+
       {/* Date Inside the Card */}
       <p className="text-purple-300 text-[16px] mt-2">{experience.date}</p>
-      
+
       {/* Experience Points */}
-      <ul className="mt-3 list-disc ml-5 space-y-2">
+      <ul style={{ marginTop: "8px", paddingLeft: "16px", listStyleType: "disc" }}>
         {experience.points.map((point, index) => (
-          <li key={`experience-point-${index}`} className="text-white-100 text-[14px] pl-1 tracking-wider">
+          <li
+            key={`experience-point-${index}`}
+            className="text-white-100 text-[14px] pl-1 tracking-wider"
+          >
             {point}
           </li>
         ))}
       </ul>
-    </div>
+    </Box>
+  </motion.div>
   );
 };
 
 const Experience = () => {
   return (
-    <>
+    <Container
+      id="experience"
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-start", // Aligning entire container to the left
+        py: 5,
+      }}
+    >
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
           Transforming Ideas into Impact: Experience in AI, Machine Learning, and Full Stack Development
@@ -41,16 +76,54 @@ const Experience = () => {
       </motion.div>
 
       {/* Custom Timeline */}
-      <div className="custom-timeline mt-20 flex flex-col relative">
-        {/* Purple Vertical Line for Timeline */}
-        <div className="absolute left-4 top-0 h-full border-l-4 border-purple-500"></div>
-
-        {/* Experience Cards */}
-        {experiences.map((experience) => (
-          <ExperienceCard key={experience.id} experience={experience} />
-        ))}
-      </div>
-    </>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          mt: 5,
+          width: "100%",
+          maxWidth: 1000,
+        }}
+      >
+        <Timeline
+          sx={{
+            pl: 0, // Remove left padding to ensure alignment
+            position: "relative",
+            "&::before": {
+              left: 0, // Force the line to appear at the left
+              width: "2px", // Adjust the thickness of the line
+              bgcolor: "#6a0dad", // Purple timeline line
+            },
+          }}
+        >
+          {experiences.map((experience, index) => (
+            <TimelineItem key={experience.id} sx={{ "&:before": { flex: 0 } }}>
+              <TimelineSeparator>
+                <TimelineDot 
+                    variant="outlined" 
+                    color="secondary" 
+                    sx={{
+                    width: "16px",
+                    height: "16px", // Adjust size of dot
+                    borderColor: "#6a0dad", // Set purple outline for the dot
+                    boxShadow: "0 0 10px 2px rgba(138, 43, 226, 0.8)", // Glowing effect
+                  }} />
+                <TimelineConnector
+                  sx={{
+                    bgcolor: "#ffffff", // Purple connector
+                    width: "2px", // Connector thickness
+                    minHeight: "20px", // Height of the connector
+                  }}
+                />
+              </TimelineSeparator>
+              <TimelineContent sx={{ py: "12px", px: 2 }}>
+                <ExperienceCard experience={experience} />
+              </TimelineContent>
+            </TimelineItem>
+          ))}
+        </Timeline>
+      </Box>
+    </Container>
   );
 };
 
