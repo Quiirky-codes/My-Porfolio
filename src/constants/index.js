@@ -48,6 +48,8 @@ import {
     exp3,
     exp4,
     asl,
+    obj_detect,
+    traffic_analyisis,
     
   } from "../assets";
   
@@ -432,21 +434,72 @@ import {
       image: asl,
       source_code_link: "https://github.com/Quiirky-codes/Sign_To_Text_Recognition",
     },
+    {
+      name: "Object Detection Application",
+      description:
+        "A mobile application that performs real-time object detection using TensorFlow Lite. The app detects and localizes objects through the device's camera, providing fast and efficient on-device inference. Built with Android Studio, it showcases seamless integration of machine learning models for practical, real-world use cases.",
+      tags: [
+        {
+          name: "Tensorflow Lite",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Kotlin",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Android Studio",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Java",
+          color: "orange-text-gradient",
+        },
+        
+      ],
+      image: obj_detect,
+      source_code_link: "https://github.com/Quiirky-codes/Object-Detection-Application",
+    },
+    {
+      name: "Traffic-Monitoring-Object-Tracking-And-Counting",
+      description:
+        "An advanced traffic monitoring system leveraging YOLOv8, a state-of-the-art deep learning model for object detection. Our system is designed to detect and track vehicles, pedestrians, cyclists, and other relevant objects in real-time from traffic surveillance footage.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "YOLO",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Deep Sort",
+          color: "pink-text-gradient",
+        },
+        
+        
+      ],
+      image: traffic_analyisis,
+      source_code_link: "https://github.com/Quiirky-codes/Object-Detection-Application",
+    },
   ];
   
   const experiences = [
     {
       id: "1",
-      title: "Full Stack Web Dev and AI Intern",
-      company_name: "Excentric NEXA",
-      icon: exp1,
-      date: "March 2020 - April 2021",
+      title: "Engineering Intern",
+      company_name: "Hindustan Aeronautics Limited - HAL",
+      date: "October 2024 - November 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a .NET application to enhance unit-level communication among employees, streamlining internal communications within HAL.\n",
+        "Collaborated with a cross-functional team of five, including network engineers and software developers, to troubleshoot network issues and ensure system reliability.\n",
+        "Ensured data security and compliance with organizational standards during application development and networking processes.\n",
+        "Contributed to backend optimization in .NET, improving operational efficiency and software performance, minimizing downtime, and enhancing application reliability.\n",
+        "Supported HAL’s network infrastructure, ensuring stable connectivity critical for seamless operations across divisions and aligning with HAL’s mission of delivering high-quality aerospace solutions.\n",
       ],
     },
+    
+    
   ];
   export { services, technologies, education, certifications, projects,experiences};// };

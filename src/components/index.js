@@ -7,6 +7,7 @@ import Project from './Project';
 import JustForFun from './JustForFun';
 import Education from './Education';
 import Contact from './Contact';
+import Experience from './Experience';
 
 
 export {
@@ -14,7 +15,8 @@ export {
   Navbar,
   About,
   TechStack, 
-  Education, 
+  Education,
+  Experience, 
   Project, 
   JustForFun, 
   Contact,

@@ -55,7 +55,8 @@ import exp1 from "./exp1.png";
 import exp2 from "./exp2.png";
 import exp3 from "./exp3.png";
 import exp4 from "./exp4.png";
-
+import obj_detect from "./obj_detect.png";
+import traffic_analyisis from "./traffic_analyisis.png";
 
 export {
   logoq,
@@ -112,5 +113,7 @@ export {
   exp3,
   exp4,
   asl,
+  obj_detect,
+  traffic_analyisis,
 
 };

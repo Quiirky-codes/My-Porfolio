@@ -73,11 +73,9 @@ const Project = () => {
             variants={fadeIn("","",0.1,1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
             >
-              My projects demonstrate the powerful synergy between technology and creativity, spanning fields such as Artificial Intelligence, Machine Learning, Data Science,
-              and Web Development. 
-              Each project reflects my dedication to solving real-world problems through innovative applications of neural networks, natural language processing, and computer vision. 
-              Additionally, I incorporate artistic elements, whether through digital art, painting, or sketching, to enhance the impact and user experience. 
-              These projects not only showcase my technical expertise but also my passion for leveraging creativity to inspire and drive meaningful outcomes.
+              My projects highlight the synergy between technology and creativity across AI, ML, Data Science, and Web Development. 
+              Each reflects my dedication to solving real-world problems through neural networks, NLP, and computer vision, often enhanced with digital art and design for impactful user experiences. 
+              These projects showcase both my technical expertise and my passion for leveraging creativity to drive meaningful outcomes !
             </motion.p>
 
         </div>
