@@ -46,7 +46,7 @@ const ExperienceCard = ({ experience }) => {
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className="text-white-100 text-[14px] pl-1 tracking-wider"
+            className="text-white-100 text-[14px] pl-1 tracking-wider "
           >
             {point}
           </li>
@@ -112,7 +112,8 @@ const Experience = () => {
                   sx={{
                     bgcolor: "#ffffff", // Purple connector
                     width: "2px", // Connector thickness
-                    minHeight: "20px", // Height of the connector
+                    minHeight: "20px",
+                    boxShadow: "0 0 10px 2px rgba(138, 43, 226, 0.8)", // Height of the connector
                   }}
                 />
               </TimelineSeparator>

@@ -437,28 +437,18 @@ import {
 const experiences = [
     {
       id: "1",
-      title: "Software Developer Engineer",
-      company_name: "Google",
-      date: "March 2020 - April 2021",
+      title: "Engineering Intern",
+      company_name: "Hindustan Aeronautics Limited - HAL",
+      date: "October 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a .NET application to enhance unit-level communication among employees, streamlining internal communications within HAL.",
+        "Collaborated with a cross-functional team of five, including network engineers and software developers, to troubleshoot network issues and ensure system reliability.",
+        "Ensured data security and compliance with organizational standards during application development and networking processes.",
+        "Contributed to backend optimization in .NET, improving operational efficiency and software performance, minimizing downtime, and enhancing application reliability.",
+        "Supported HAL’s network infrastructure, ensuring stable connectivity critical for seamless operations across divisions and aligning with HAL’s mission of delivering high-quality aerospace solutions.",
       ],
     },
-    {
-      id: "2",
-      title: "Data Scientist",
-      company_name: "Amazon",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
     
   ];
   export { services, technologies, education, certifications, projects,experiences};// };
