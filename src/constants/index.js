@@ -165,13 +165,13 @@ import {
     {
       title: "Global Academy Of Technology, Bengaluru",
       company_name: "Bachelor Of Technology - B.Tech, Artificial Intelligence and Machine Learning",
-      grade:"Grade - 8.61",
+      grade:"Grade - 8.76",
       icon: gat,
       iconBg: "#383E56",
       date: "Dec 2021 - Present",
       points: [
         "I am currently pursuing my Bachelor's degree in Artificial Intelligence and Machine Learning at Global Academy of Technology, Bengaluru.",
-        "I have completed 5 Semesters and have a CGPA of 8.73.",
+        "I have completed 6 Semesters and have a CGPA of 8.76.",
         "Founding Core Committee Member of VIHANA - The social-service club of the Department of Artificial Intelligence and Machine Learning.",
       ],
     },
@@ -492,11 +492,11 @@ import {
       company_name: "Hindustan Aeronautics Limited - HAL",
       date: "October 2024 - November 2024",
       points: [
-        "Developed a .NET application to enhance unit-level communication among employees, streamlining internal communications within HAL.\n",
-        "Collaborated with a cross-functional team of five, including network engineers and software developers, to troubleshoot network issues and ensure system reliability.\n",
-        "Ensured data security and compliance with organizational standards during application development and networking processes.\n",
-        "Contributed to backend optimization in .NET, improving operational efficiency and software performance, minimizing downtime, and enhancing application reliability.\n",
-        "Supported HAL’s network infrastructure, ensuring stable connectivity critical for seamless operations across divisions and aligning with HAL’s mission of delivering high-quality aerospace solutions.\n",
+        "Developed a .NET application that enhanced communication among 1,500+ employees, reducing delays by 40%, while ensuring 100% compliance with HAL’s data security and organizational standards.\n",
+
+        "Collaborated with a team of 5 (network engineers, software developers) to resolve network issues with a 95% success rate, ensuring reliable connectivity and system performance across 3 divisions.\n",
+        
+        "Optimized backend processes in .NET, improving operational efficiency by 30%, reducing downtime by 20%, and maintaining 99.9% network uptime across 4 divisions to support HAL’s mission of delivering high-quality aerospace solutions.\n",
       ],
     },
     

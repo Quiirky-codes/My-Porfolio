@@ -37,10 +37,10 @@ const About = () => {
       variants={fadeIn("","",0.1,1)}
       className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
       >
-        I’m a tech enthusiast blending creativity with AI, ML, Data Science, and Web Development to craft innovative solutions. 
-        With expertise in neural networks, NLP, and computer vision, I tackle real-world challenges to build impactful applications. 
-        Beyond tech, I express creativity through painting, sketching, and digital art, believing in art’s power to inspire. 
-        Driven to combine my skills in technology and artistry, I strive to contribute meaningfully to cutting-edge projects and teams !
+        I’m a Tech Artist based out of Bengaluru, blending creativity with expertise in AI, ML, Data Science, and Web Development to craft innovative solutions. 
+        With a strong foundation in neural networks, NLP, and computer vision, I tackle real-world challenges to build impactful applications. 
+        Beyond tech, I channel my creativity through painting, sketching, and digital art, embracing the power of art to inspire and connect. 
+        Driven by a passion for combining technology and artistry, I aim to contribute meaningfully to cutting-edge projects and collaborative teams !
       </motion.p>
         <div className='mt-20 flex flex-wrap gap-10'>
           {services.map((service, index) => (
