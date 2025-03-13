@@ -57,6 +57,7 @@ import exp3 from "./exp3.png";
 import exp4 from "./exp4.png";
 import obj_detect from "./obj_detect.png";
 import traffic_analyisis from "./traffic_analyisis.png";
+import echosight from "./echosight.png";
 
 export {
   logoq,
@@ -115,5 +116,6 @@ export {
   asl,
   obj_detect,
   traffic_analyisis,
+  echosight,
 
 };

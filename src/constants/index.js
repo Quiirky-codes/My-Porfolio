@@ -50,6 +50,7 @@ import {
     asl,
     obj_detect,
     traffic_analyisis,
+    echosight,
     
   } from "../assets";
   
@@ -482,6 +483,29 @@ import {
       ],
       image: traffic_analyisis,
       source_code_link: "https://github.com/Quiirky-codes/Object-Detection-Application",
+    },
+    {
+      name: "EchoSight: An AI Wearable Device for the Blind",
+      description:
+        "EchoSight is an AI-driven wearable aiding the visually impaired with real-time auditory feedback for enhanced mobility, independence, and safety using computer vision, machine learning, and sensor-based obstacle detection.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "YOLO V4 TINY",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Dlib",
+          color: "pink-text-gradient",
+        },
+        
+        
+      ],
+      image: echosight,
+      source_code_link: "https://github.com/Quiirky-codes/EchoSight",
     },
   ];
   
