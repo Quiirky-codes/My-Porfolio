@@ -233,7 +233,7 @@ import {
     },
     {
       id:"4",
-      title:"Programming with a Large Language Model",
+      title:"Pair Programming with a Large Language Model",
       date: "July 2024",
       company_name: "DeepLearning.AI",
       testimonial:
@@ -242,15 +242,6 @@ import {
     },
     {
       id:"5",
-      title:"Programming with a Large Language Model",
-      date: "July 2024",
-      company_name: "DeepLearning.AI",
-      testimonial:
-        "",
-      source_code_link: "https://learn.deeplearning.ai/accomplishments/68151c1f-ae56-44e3-8908-bdb57ebd36b3?usp=sharing",
-    },
-    {
-      id:"6",
       title:"ChatGPT Prompt Engineering for Developers",
       date: "July 2024",
       company_name: "DeepLearning.AI",
@@ -259,7 +250,7 @@ import {
       source_code_link: "https://learn.deeplearning.ai/accomplishments/8d5b516d-d01a-4604-b7e3-c612e76601f5?usp=sharing",
     },
     {
-      id:"7",
+      id:"6",
       title:"Full stack Web Development",
       date: "July 2024",
       company_name: "Udemy",
@@ -268,7 +259,7 @@ import {
       source_code_link: "https://www.udemy.com/certificate/UC-8d0a694a-020f-40be-929f-4fcef052d76e/",
     },
     {
-      id:"8",
+      id:"7",
       title:"Introduction to Generative AI",
       date: "July 2024",
       company_name: "Google Cloud",
@@ -277,7 +268,7 @@ import {
       source_code_link: "https://www.cloudskillsboost.google/public_profiles/70e7af2a-8e85-4345-8942-37b0af695121/badges/10236618?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
     },
     {
-      id:"9",
+      id:"8",
       title:"LangChain for LLM Application Development",
       date: "July 2024",
       company_name: "DeepLearning.AI",
@@ -286,7 +277,7 @@ import {
       source_code_link: "https://learn.deeplearning.ai/accomplishments/378a03c8-f7ea-4c98-8842-d58d21edf54b?usp=sharing",
     },
     {
-      id:"10",
+      id:"9",
       title:"Python For Data Science and Machine Learning",
       date: "July 2024",
       company_name: "Udemy",
@@ -505,7 +496,7 @@ import {
         
       ],
       image: echosight,
-      source_code_link: "https://github.com/Quiirky-codes/EchoSight",
+      source_code_link: "https://github.com/Quiirky-codes/EchoSight-An-AI-Driven-Wearable-Device-for-the-Visually-Impaired",
     },
   ];
   
