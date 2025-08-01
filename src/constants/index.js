@@ -75,7 +75,7 @@ import {
     {
       id: "linkedinlink",
       title: "LinkedIn",
-      url:"https://www.linkedin.com/in/amithmjain007/",
+      url:"https://www.linkedin.com/in/amithmjain/",
       
     },
     {
@@ -166,13 +166,12 @@ import {
     {
       title: "Global Academy Of Technology, Bengaluru",
       company_name: "Bachelor Of Technology - B.Tech, Artificial Intelligence and Machine Learning",
-      grade:"Grade - 8.76",
+      grade:"Grade - 8.88",
       icon: gat,
       iconBg: "#383E56",
-      date: "Dec 2021 - Present",
+      date: "Dec 2021 - June 2025",
       points: [
-        "I am currently pursuing my Bachelor's degree in Artificial Intelligence and Machine Learning at Global Academy of Technology, Bengaluru.",
-        "I have completed 6 Semesters and have a CGPA of 8.76.",
+        "I have completed my Bachelor's degree in Artificial Intelligence and Machine Learning with First Class Distinction from Global Academy of Technology, Bengaluru.",
         "Founding Core Committee Member of VIHANA - The social-service club of the Department of Artificial Intelligence and Machine Learning.",
       ],
     },
