@@ -51,6 +51,8 @@ import {
     obj_detect,
     traffic_analyisis,
     echosight,
+    verseai,
+    answersheet,
     
   } from "../assets";
   
@@ -496,6 +498,52 @@ import {
       ],
       image: echosight,
       source_code_link: "https://github.com/Quiirky-codes/EchoSight-An-AI-Driven-Wearable-Device-for-the-Visually-Impaired",
+    },
+    {
+      name: "Automated Answer Sheet Evaluation System",
+      description:
+        "AI-powered system that evaluates handwritten or typed student answers from PDFs and images using Google Gemini, returning structured scores and detailed feedback through prompt engineering and OCR.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Google Vision API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Optical Character Recognition (OCR)",
+          color: "pink-text-gradient",
+        },
+        
+        
+      ],
+      image: answersheet,
+      source_code_link: "https://github.com/Quiirky-codes/Answer_Sheet_Evaluation_Bot",
+    },
+    {
+      name: "VerseAI: AI-Powered Document Reader",
+      description:
+        "Verse is an AI-powered document analysis platform. Upload PDFs, DOCX, or other text files and leverage a Retrieval-Augmented Generation (RAG) pipeline with ChromaDB to get summaries, extract information, and ask complex questions about your documents.",
+      tags: [
+        {
+          name: "React + Vite",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "RAG",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+        
+        
+      ],
+      image: verseai,
+      source_code_link: "https://github.com/Quiirky-codes/Verse_AI_Document_Reader_-_ChatBot",
     },
   ];
   

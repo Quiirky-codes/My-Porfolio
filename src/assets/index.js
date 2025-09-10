@@ -58,6 +58,8 @@ import exp4 from "./exp4.png";
 import obj_detect from "./obj_detect.png";
 import traffic_analyisis from "./traffic_analyisis.png";
 import echosight from "./echosight.png";
+import verseai from "./verseai.png";
+import answersheet from "./answersheet.png";
 
 export {
   logoq,
@@ -117,5 +119,7 @@ export {
   obj_detect,
   traffic_analyisis,
   echosight,
+  verseai,
+  answersheet,
 
 };
