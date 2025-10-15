@@ -547,21 +547,41 @@ import {
     },
   ];
   
-  const experiences = [
-    {
-      id: "1",
-      title: "Engineering Intern",
-      company_name: "Hindustan Aeronautics Limited - HAL",
-      date: "October 2024 - November 2024",
-      points: [
-        "Developed a .NET application that enhanced communication among 1,500+ employees, reducing delays by 40%, while ensuring 100% compliance with HAL’s data security and organizational standards.\n",
+const experiences = [
+  {
+    id: "1",
+    title: "Engineering Intern",
+    company_name: "Hindustan Aeronautics Limited - HAL",
+    date: "October 2024 - November 2024",
+    points: [
+      "Developed a .NET application improving communication for 1,500+ employees, reducing delays by 40%.",
+      "Collaborated with a team to resolve network issues with 95% success rate across 3 divisions.",
+      "Optimized backend processes, improving operational efficiency by 30% and reducing downtime by 20%.",
+    ],
+  },
+  {
+    id: "2",
+    title: "Freelance Website Developer",
+    company_name: "Nayana Constructions",
+    website: "https://nayanaconstructions.com",
+    date: "October 2025",
+    points: [
+      "Built a responsive website using React, Vite, Tailwind CSS, and TypeScript.",
+      "Integrated EmailJS for automated client inquiries and improved communication efficiency.",
+      "Deployed a fast, SEO-friendly website showcasing company services and projects.",
+    ],
+  },
+  {
+    id: "3",
+    title: "Freelance AI Proctor",
+    company_name: "GeekTrust",
+    date: "August 2025 - Present",
+    points: [
+      "Monitored AI-based technical interviews, ensuring fairness, compliance, and professionalism.",
+      "Verified candidate identities and documented any irregularities or technical issues.",
+      "Coordinated with AI platforms for smooth interview execution and accurate reporting.",
+    ],
+  },
+];
 
-        "Collaborated with a team of 5 (network engineers, software developers) to resolve network issues with a 95% success rate, ensuring reliable connectivity and system performance across 3 divisions.\n",
-        
-        "Optimized backend processes in .NET, improving operational efficiency by 30%, reducing downtime by 20%, and maintaining 99.9% network uptime across 4 divisions to support HAL’s mission of delivering high-quality aerospace solutions.\n",
-      ],
-    },
-    
-    
-  ];
-  export { services, technologies, education, certifications, projects,experiences};// };
+export { services, technologies, education, certifications, projects,experiences};// };
